@@ -134,9 +134,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     // Если ошибок нет, сохраняем данные в БД
-    $user = 'u70422';
-    $pass = '4545635';
-    $dbname = 'u70422';
+    $user = 'uXXXXX';
+    $pass = 'YYYYYYY';
+    $dbname = 'uXXXXX';
     
     try {
         $db = new PDO("mysql:host=localhost;dbname=$dbname", $user, $pass, [
